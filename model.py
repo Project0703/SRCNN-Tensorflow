@@ -26,7 +26,7 @@ class SRCNN(object):
                batch_size=128,
                c_dim=1, 
                checkpoint_dir=None, 
-               sample_dir=None):
+               sample_dir="/content/SRCNN-Tensorflow/Train"):
 
     self.sess = sess
     self.is_grayscale = (c_dim == 1)
